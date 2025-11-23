@@ -17,7 +17,7 @@ export const FilteredProduct = ({ products }) => {
     setSearch(value);
   };
   return (
-    <section className="p-10 min-h-screen">
+    <section className="py-20 px-10 min-h-screen">
       <Searchbar searchTerm={search} onSearchChange={handleSearchChange} />
       <CardList data={filteredProducts} />
     </section>

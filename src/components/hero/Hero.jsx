@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export const Hero = ({ info }) => {
   return (
-    <section className=" w-full md:h-screen">
+    <section className="py-20 w-full text-xs">
       <div className="md:grid md:grid-cols-2 flex flex-col">
         {/*left hero section*/}
         <motion.div
