@@ -8,6 +8,11 @@ export const Navbar = () => {
           daisyUI
         </Link>
       </div>
+      <div>
+        <Link to="/products" className="btn btn-ghost text-xl">
+          PRODUCTOS
+        </Link>
+      </div>
       <div className="flex gap-2">
         <div className="dropdown dropdown-end">
           <div
